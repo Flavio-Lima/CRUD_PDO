@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+label,
+input {
+  width: 100%;
+  display: block;
+  line-height: 30px;
+  height: 30px;
+  outline: 0;
+  font-size: 16px;
+}
+
+body {
+  font-family: arial;
+  display: flex;
+}
+
+form {
+  width: 330px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 30px auto;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+}
+
+.left {
+  width: 35%;
+  padding-top: 22px;
+}
+
+.right {
+  position: relative;
+  width: 60%;
+  padding-top: 22px;
+}
+
+table {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 90%;
+  margin: 30px 0;
+}
+
+tr {
+  line-height: 30px;
+}
+
+.title {
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+td {
+  padding: 0px 5px;
+}
+
+a {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  margin: 0px 5px;
+  text-decoration: none;
+}
+
+.aviso {
+  position: absolute;
+  top: 14px;
+  left: 214px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 30px;
+  display: block;
+  margin-right: 5px;
+}
+
+.aviso-cadastro {
+  margin: 0 auto;
+}
+
+.btn-sair {
+  position: absolute;
+  top: 0;
+  right: 74px;
+  background-color: #ccc;
+  margin-top: 10px;
+  padding: 7px;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-sair:hover {
+  background-color: rgb(230, 225, 225);
+}
+/*
+@media screen and (max-width: 1080px) {
+  body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 80%;
+  }
+}
+*/
